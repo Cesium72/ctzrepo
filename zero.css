@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 :root {
   --teal: #2fc682;
@@ -96,18 +98,12 @@ article.month-content p {
   width: 25%;
   margin: 3px;
 }
-#home-content td {
-  width: 50%;
+#grid-container {
+  display:grid;
+  width:100%;
+  grid-template-columns:50% 50%;
 }
-#home-content td * {
-  width:75%;
-}
-#home-content td img {
-  float: right;
-}
-#home-content .descriptions {
-  text-align: justify;
-}
-div p.about {
-  width: 50%;
+#grid-container div:nth-child(2) {
+  text-align:left;
+  padding-top:25%
 }
