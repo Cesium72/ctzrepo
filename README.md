@@ -1,4 +1,3 @@
-# Countdown to Zero
-hosted on repository ctzrepo
+# ctzrepo
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/countdowntozerobackup)
