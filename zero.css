@@ -98,12 +98,13 @@ article.month-content p {
   width: 25%;
   margin: 3px;
 }
-#grid-container {
-  display:grid;
+#main-content {
   width:100%;
-  grid-template-columns:50% 50%;
 }
-#grid-container div:nth-child(2) {
-  text-align:left;
-  padding-top:25%
+#main-content div {
+  width:50%;
+}
+#main-content div:nth-child(2) {
+  float:right;
+  clear:none;
 }
