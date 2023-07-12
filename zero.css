@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  margin:0;
-  padding:0;
 }
 :root {
   --teal: #2fc682;
@@ -98,13 +96,18 @@ article.month-content p {
   width: 25%;
   margin: 3px;
 }
-#main-content {
-  width:100%;
+#descriptions,#description-logo {
+  float:center;
 }
-#main-content div {
-  width:50%;
-}
-#main-content div:nth-child(2) {
-  float:right;
-  clear:none;
+@media only screen and (min-width: 720px) {
+  #description {
+    width:47%;
+    float:right;
+    margin-right:3%;
+  }
+  #description-logo {
+    width:25vw;
+    margin-left:25%;
+    
+  }
 }
