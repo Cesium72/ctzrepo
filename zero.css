@@ -99,6 +99,14 @@ article.month-content p {
 #descriptions,#description-logo {
   float:center;
 }
+.home-sub {
+  text-align:left;
+  border-bottom:2px solid var(--dark);
+  color:var(--dark);
+  width:48%;
+  margin-left:2%;
+}
+
 @media only screen and (min-width: 720px) {
   #description {
     width:47%;
